@@ -7,12 +7,9 @@ return x+y;
 int main(){
     int x,y;
     printf("enter x \n");
-    scanf("%d\n",&x);
+    scanf("%d",&x);
      printf("enter y \n");
-    scanf("%d\n",&y);
+    scanf("%d",&y);
     printf(" %d + %d = %d",x,y,sum(x,y));
     return 0;
 }
-
-
-
